@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ada.png" />
+    <None Remove="atom.png" />
+    <None Remove="btc.png" />
+    <None Remove="doge.png" />
+    <None Remove="eth.png" />
+    <None Remove="FBinance.png" />
+    <None Remove="ltc.png" />
+    <None Remove="sol.png" />
+    <None Remove="trx.png" />
+    <None Remove="xrp.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="SQLite" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ada.png" />
+    <Resource Include="atom.png" />
+    <Resource Include="btc.png" />
+    <Resource Include="doge.png" />
+    <Resource Include="eth.png" />
+    <Resource Include="FBinance.png" />
+    <Resource Include="ltc.png" />
+    <Resource Include="sol.png" />
+    <Resource Include="trx.png" />
+    <Resource Include="xrp.png" />
+  </ItemGroup>
+
+</Project>
